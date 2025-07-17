@@ -1,0 +1,19 @@
+.dashboard {
+  padding: 2rem;
+}
+
+.dropdown {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.dropdown select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.content-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}

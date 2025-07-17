@@ -1,0 +1,16 @@
+
+.content-box {
+  background-color: #ffffff0d;
+  border: 2px solid #444;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(66, 34, 34);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.content-box:hover {
+  background-color: #444;
+  transform: translateY(-5px) scale(1.03);
+}
