@@ -3,7 +3,7 @@ import Login from './Login';
 import Header from './Header';
 import Dashboard from './Dashboard';
 
-const child = ({ message, id}) => {
+const child = ({message, id}) => {
   return (
     <>
       <p>{message}</p>
@@ -15,11 +15,12 @@ const child = ({ message, id}) => {
 const Child = (props) => {
   return (
     <>
-    <p>{props.message}</p>
-    <p>{props.id}</p>
+      <p>{props.message}</p>
+      <p>{props.id}</p>
     </>
   )
 }
+
 
 const Main = () => {
   return (
