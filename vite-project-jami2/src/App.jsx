@@ -3,31 +3,6 @@ import Login from './Login';
 import Header from './Header';
 import Dashboard from './Dashboard';
 
-const child = ({message, id}) => {
-  return (
-    <>
-      <p>{message}</p>
-      <p>{id}</p>
-    </>
-  )
-}
-
-const Child = (props) => {
-  return (
-    <>
-      <p>{props.message}</p>
-      <p>{props.id}</p>
-    </>
-  )
-}
-
-
-const Main = () => {
-  return (
-    <Child message={"Hii Bhargavaaa"} id={123} />
-  )
-}
-
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
