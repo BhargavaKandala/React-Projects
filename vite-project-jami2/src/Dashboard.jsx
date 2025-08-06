@@ -9,7 +9,7 @@ const sampleStudent = {
   branch: 'AIML',
   attendance_status: 'Present',
   Thub_status: 'Brathike Unnad Sir!!',
-  FRS_Status: 'Present',
+  FRS_Status: 'Present!',
 };
 
 const features = [
