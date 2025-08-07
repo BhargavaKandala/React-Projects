@@ -18,7 +18,6 @@ export default function App() {
     setIsLoggedIn(false);
   };
 
-
   let content;
   if (isLoggedIn) {
     content = (
