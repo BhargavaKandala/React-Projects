@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import MyButton from './Mybutton.jsx';
+import ListRendering from './ListRendering.jsx';
 
+//Responding to events
 function App() {
   
   return (
     <>
-      
+      <MyButton/>
+      <MyButton/>
+      <ListRendering/>
     </>
   )
 }
 
-export default App
+export default App;
