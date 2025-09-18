@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 import MyImage from './assets/react.svg';
 import CardComponent from './Myfunction.jsx';
 import './App.css'
+import Component from './Component.jsx';
 
 function App() {
   var MyList = [
@@ -13,14 +14,15 @@ function App() {
     ]
 
     return(
-      <div className="parent">
-        {
-          MyList.map(ele=>{
-            return <CardComponent Data = {ele}/>
-          })
-        }
-      </div>
-    )
+      // <div className="parent">
+      //   {
+      //     MyList.map(ele=>{
+      //       return <CardComponent Data = {ele}/>
+      //     })
+      //   }
+      // </div>
+      <Component/>
+    );
 }
 
 export default App;
